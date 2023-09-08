@@ -1,0 +1,4 @@
+Summarize the following text in 2 sentences while speaking like Snoop Dogg. Make it PG-rated.
+[BEGIN TEXT]
+{{$input}}
+[END TEXT]
