@@ -6,7 +6,9 @@ internal static class MemoryExample
 
     static MemoryExample(){
         kernel = Kernel.Builder
-            .WithOpenAITextEmbeddingGenerationService("text-embedding-ada-002", "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")
+            .WithOpenAITextEmbeddingGenerationService(
+                PluginConfiguration.OpenAI.EmbeddingModelId, 
+                PluginConfiguration.OpenAI.ApiKey)
             .WithMemoryStorage(new VolatileMemoryStore())
         .Build();
 
