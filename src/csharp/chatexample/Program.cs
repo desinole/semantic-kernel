@@ -33,9 +33,17 @@ var chat = (OpenAIChatHistory)chatGPT.CreateNewChat(prompt);
 Console.WriteLine("What are you interested in learning about?");
 var question = Console.ReadLine();
 
-chat.AddUserMessage(question);
+chat.AddUserMessage($"I'm interested in learning about {question}");
 
 string reply = await chatGPT.GenerateMessageAsync(chat, new ChatRequestSettings());
+chat.AddAssistantMessage(reply);
+
+Console.WriteLine("Any other questions?");
+question = Console.ReadLine();
+
+chat.AddUserMessage($"I would also like to learn more about {question}");
+
+reply = await chatGPT.GenerateMessageAsync(chat, new ChatRequestSettings());
 chat.AddAssistantMessage(reply);
 
 Console.WriteLine("Chat output:");

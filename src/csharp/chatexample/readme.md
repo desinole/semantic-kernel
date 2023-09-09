@@ -2,6 +2,7 @@
 
 ### Prereqs
 
+Sign up for an OpenAI account and get an API key from the portal.
 
 Add packages
 ```dotnetcli
