@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chatexample", "chatexample\chatexample.csproj", "{0FE2DED6-B71F-4417-B8C6-96B53EAF6583}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstAIPlugin", "MyFirstAIPlugin\MyFirstAIPlugin.csproj", "{11AAC44D-7CD4-4463-9FCD-2378F3FA8669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins", "Plugins\Plugins.csproj", "{57D71E0F-21AC-47F0-886B-5A90CAFAA39B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{0FE2DED6-B71F-4417-B8C6-96B53EAF6583}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FE2DED6-B71F-4417-B8C6-96B53EAF6583}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FE2DED6-B71F-4417-B8C6-96B53EAF6583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11AAC44D-7CD4-4463-9FCD-2378F3FA8669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11AAC44D-7CD4-4463-9FCD-2378F3FA8669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11AAC44D-7CD4-4463-9FCD-2378F3FA8669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11AAC44D-7CD4-4463-9FCD-2378F3FA8669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D71E0F-21AC-47F0-886B-5A90CAFAA39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D71E0F-21AC-47F0-886B-5A90CAFAA39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D71E0F-21AC-47F0-886B-5A90CAFAA39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D71E0F-21AC-47F0-886B-5A90CAFAA39B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
